@@ -135,7 +135,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+#.env   bunu comment out ettim.
 .envrc
 .venv
 env/
