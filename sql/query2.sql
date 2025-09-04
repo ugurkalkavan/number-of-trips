@@ -14,7 +14,7 @@ client_summary AS (
     SELECT
         'CLIENT' AS view_type,
         client_id AS id,
-        SUM(cnt) as total_cnt
+        SUM(cnt) as NUMBER_OF_TRIPS
     FROM done_trips_in_different_days
     GROUP BY client_id
 ),
@@ -22,7 +22,7 @@ driver_summary AS (
     SELECT
         'DRIVER' AS view_type,
         driver_id AS id,
-        SUM(cnt) as total_cnt
+        SUM(cnt) as NUMBER_OF_TRIPS
     FROM done_trips_in_different_days
     GROUP BY driver_id
 )
