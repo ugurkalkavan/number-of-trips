@@ -71,7 +71,7 @@ t_1;c_1;d_2;2022-01-13 18:25:04.000;done
 ```markdown
 📊 Query2 Sonucu
 +-------------+------+-------------------+
-| view_type   | id   |   NUMBER_OF_TRIPS |
+| view_type   | id   |   number_of_trips |
 |-------------+------+-------------------|
 | CLIENT      | c_1  |                 3 |
 | DRIVER      | d_1  |                 2 |
